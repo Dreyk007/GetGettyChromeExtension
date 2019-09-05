@@ -1,5 +1,7 @@
 # GetGettyChromeExtension
-A small application for downloading high quality images from some popular photo hosting.
+A small application for downloading high quality images *without watermark* from some popular photo hosting.
+
+Be aware: images may be copyrighted. In this case, you cannot use them without permission from the owner.
 
 ### Used with Flask application: https://github.com/Dreyk007/GetGettyFlaskApp
 
