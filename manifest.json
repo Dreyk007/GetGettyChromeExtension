@@ -1,0 +1,28 @@
+{
+  "name": "GetGetty",
+  "version": "0.0.5",
+  "manifest_version": 2,
+  "description": "Download full-size images",
+  "page_action": {
+    "default_title": "GetGetty"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "jquery-3.4.1.min.js",
+        "content.js"
+      ],
+      "matches": [
+        "https://*/photos/*",
+        "https://*/search/*/image*"
+      ]
+    }
+  ]
+}
